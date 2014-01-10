@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5db355f-b968-412f-8190-c6b56c878bf8" name="Default" comment="" />
+    <list default="true" id="b5db355f-b968-412f-8190-c6b56c878bf8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/harjassi/unixtools/Tail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjassi/unixtools/Head.java" afterPath="$PROJECT_DIR$/src/harjassi/unixtools/Head.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="unixTools.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,16 +71,25 @@
       <file leaf-file-name="WC.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/WC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="544">
+            <state line="20" column="5" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Head.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Head.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/Head.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.04121475" vertical-offset="168" max-vertical-offset="697">
+            <state line="12" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tail.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/Tail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.9259259" vertical-offset="153" max-vertical-offset="680">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,14 +114,15 @@
         <option value="$PROJECT_DIR$/src/harjassi/unixtools/WC.java" />
         <option value="$USER_HOME$/Downloads/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/harjassi/unixtools/Head.java" />
+        <option value="$PROJECT_DIR$/src/harjassi/unixtools/Tail.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="1" />
-    <option name="width" value="1260" />
-    <option name="height" value="760" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="779" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -190,7 +204,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Head">
+  <component name="RunManager" selected="Application.Tail">
     <configuration default="false" name="WC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="harjassi.unixtools.WC" />
       <option name="VM_PARAMETERS" value="" />
@@ -211,6 +225,22 @@
       <option name="MAIN_CLASS_NAME" value="harjassi.unixtools.Head" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="abc.txt -10" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="unixTools" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="harjassi.unixtools.Tail" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="abc.txt -7" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -350,14 +380,16 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.WC" />
       <item index="1" class="java.lang.String" itemvalue="Application.Head" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Tail" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Head" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WC" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Tail" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Head" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WC" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -392,8 +424,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="1" width="1260" height="760" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="779" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -402,17 +434,17 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2793462" sideWeight="0.1125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838038" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14871383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2553517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2793462" sideWeight="0.8875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -441,6 +473,43 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/WC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/Head.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/Tail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="748">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/WC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/Head.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/WC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="43" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="612">
@@ -488,7 +557,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/Head.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.04121475" vertical-offset="168" max-vertical-offset="697">
+        <state line="12" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/Tail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.9259259" vertical-offset="153" max-vertical-offset="680">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -3,10 +3,11 @@ package harjassi.unixtools;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class Head {
+public class Tail {
     public static void main(String[] args){
         if(args.length == 0){
             System.out.println("File Not Given");
+            return;
         }
         try{
             int linesToPrint = 10;
@@ -21,14 +22,13 @@ public class Head {
             while((lines = br.readLine()) != null) {
                 content = content+"\n"+lines;
             }
-            int i = 0;
-            for (i = 0; i < linesToPrint+1; i++){
-                   System.out.println(content.split("\n")[i]);
-            }
+            int i;
+            int length = content.split("\n").length;
+            for(i = linesToPrint; i < length; i++)
+                System.out.println(content.split("\n")[i]);
         }
         catch(Exception exp){
             System.out.println("Something Went Wrong");
         }
     }
 }
-
