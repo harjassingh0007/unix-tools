@@ -6,8 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
 
-import static java.util.Arrays.sort;
-
 public class Sort {
     public static void main(String[] args){
         if(args.length == 0){
