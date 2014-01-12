@@ -1,10 +1,5 @@
 package harjassi.unixtools;
 
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.util.Arrays;
-
 public class RemoveSpaces {
     public static void main(String[] args){
         if(args.length == 0){
@@ -14,12 +9,12 @@ public class RemoveSpaces {
         try{
             String content = "";
             String data;
-            String[] output = new String[0];
-            BufferedReader br = new BufferedReader(new FileReader(args[0]));
-            content = new readFile().getContent(br);
+            FileOperations operation = new FileOperations();
+            content = operation.readFile(args[0]);
             RemoveSpace removeSpace = new RemoveSpace();
             data = removeSpace.RemoveExtraSpaces(content);
-            System.out.println(data);
+            operation.writeFile(args[1], data);
+            System.out.println("Operation Done");
         }
         catch (Exception exp){
             System.out.println("Something Went Wrong");

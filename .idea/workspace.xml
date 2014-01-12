@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5db355f-b968-412f-8190-c6b56c878bf8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/harjassi/unixtools/RemoveSpaces.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/harjassi/unixtools/Cut.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/harjassi/unixtools/FileOperations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjassi/unixtools/RemoveSpaces.java" afterPath="$PROJECT_DIR$/src/harjassi/unixtools/RemoveSpaces.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/harjassi/unixtools/Sort.java" afterPath="$PROJECT_DIR$/src/harjassi/unixtools/Sort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -71,10 +73,8 @@
       <file leaf-file-name="RemoveSpaces.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/RemoveSpaces.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="17" column="9" selection-start="617" selection-end="617" vertical-scroll-proportion="0.6465324" vertical-offset="0" max-vertical-offset="646">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,8 +98,10 @@
         <option value="$PROJECT_DIR$/src/harjassi/unixtools/Head.java" />
         <option value="$PROJECT_DIR$/src/harjassi/unixtools/Tail.java" />
         <option value="$PROJECT_DIR$/src/harjassi/unixtools/Uniq.java" />
-        <option value="$PROJECT_DIR$/src/harjassi/unixtools/Sort.java" />
+        <option value="$PROJECT_DIR$/src/harjassi/unixtools/FileOperations.java" />
         <option value="$PROJECT_DIR$/src/harjassi/unixtools/RemoveSpaces.java" />
+        <option value="$PROJECT_DIR$/src/harjassi/unixtools/Sort.java" />
+        <option value="$PROJECT_DIR$/src/harjassi/unixtools/Cut.java" />
       </list>
     </option>
   </component>
@@ -189,7 +191,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Application.RemoveSpaces">
+  <component name="RunManager" selected="Application.Sort">
     <configuration default="false" name="Head" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="harjassi.unixtools.Head" />
       <option name="VM_PARAMETERS" value="" />
@@ -257,7 +259,7 @@
     <configuration default="false" name="RemoveSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="harjassi.unixtools.RemoveSpaces" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="file.txt" />
+      <option name="PROGRAM_PARAMETERS" value="file.txt file2.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -406,8 +408,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RemoveSpaces" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Sort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RemoveSpaces" />
         <item index="2" class="java.lang.String" itemvalue="Application.Uniq" />
         <item index="3" class="java.lang.String" itemvalue="Application.Tail" />
         <item index="4" class="java.lang.String" itemvalue="Application.Head" />
@@ -451,7 +453,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="779" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -460,7 +462,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2778603" sideWeight="0.1125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2971768" sideWeight="0.1125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838038" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -470,7 +472,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30014858" sideWeight="0.8875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2971768" sideWeight="0.8875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -504,9 +506,7 @@
     <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/RemoveSpaces.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="527">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -643,21 +643,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/FileOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="994" selection-end="994" vertical-scroll-proportion="0.92152464" vertical-offset="99" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/Cut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.07606264" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="890" selection-end="1224" vertical-scroll-proportion="0.52060735" vertical-offset="338" max-vertical-offset="884">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="22" column="9" selection-start="679" selection-end="679" vertical-scroll-proportion="0.7315436" vertical-offset="47" max-vertical-offset="561">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/harjassi/unixtools/RemoveSpaces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="17" column="9" selection-start="617" selection-end="617" vertical-scroll-proportion="0.6465324" vertical-offset="0" max-vertical-offset="646">
+          <folding />
         </state>
       </provider>
     </entry>
